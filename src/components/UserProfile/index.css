@@ -1,0 +1,21 @@
+.userInformation {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+.userProfile {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+@media screen and (min-width: 578px) {
+  .userProfile {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    background-color: #fafafa;
+  }
+}

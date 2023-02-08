@@ -1,0 +1,120 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 577px) {
+  .slick-container {
+    width: 80%;
+    margin: 2px;
+  }
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 52px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-item {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 577px) {
+  .slick-item {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .logo-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+  }
+}
+.userName {
+  text-align: center;
+}
+
+@media screen and (max-width: 577px) {
+  .userName {
+    font-size: 14px;
+  }
+}
+
+/* .storyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+} */
+.home-container {
+  background-color: #fafafa;
+  width: 100%;
+}
+.post-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 578px) {
+  .failure-img {
+    width: 44px;
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .failure-img {
+    width: 22px;
+    height: 19px;
+  }
+}
+.try-again-button {
+  width: 102px;
+  height: 32px;
+  background-color: #4094ef;
+  color: white;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  border: #4094ef;
+}
+
+.loader-container {
+  text-align: center;
+}
+.post-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 578px) {
+  .PostsViewContainer {
+    width: 100%;
+  }
+}

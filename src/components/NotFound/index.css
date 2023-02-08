@@ -1,0 +1,25 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.not-found-img {
+  width: 200px;
+}
+.notFound-para {
+  color: #989898;
+  font-size: 20px;
+  text-align: center;
+}
+.notFound-button {
+  background-color: #4094ef;
+  border-radius: 12px;
+  border-color: #4094ef;
+  color: white;
+  width: 141px;
+  height: 48px;
+}
